@@ -35,8 +35,12 @@ body {
 .word {
     font-family: 'Special Elite', cursive;
     color: var(--main-color);
-    font-size: 32px;
+    font-size: 42px;
 
+}
+
+.link {
+    color: var(--main-color);
 }
 
 
