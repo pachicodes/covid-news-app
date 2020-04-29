@@ -1,0 +1,47 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+    --main-color: #393E46;
+    --accent-color: #D6552C;
+    --bg-color: #E7E7E7;
+    color: #212121;
+    background-color: var(--main-color);
+}
+
+.title__main {
+    font-family: 'Special Elite', cursive;
+    color: var(--accent-color);
+    font-size: 42px;
+}
+
+.main {
+    margin: auto;
+    padding: 50px;
+    width: 80%;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.sign-up {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 3px;
+    padding: .8em;
+    padding-bottom: 0.8em;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 40%;
+    margin: auto;
+    background-color: rgba(214, 84, 44, 0.5);
+}
+
+.word {
+    font-family: 'Special Elite', cursive;
+    color: var(--main-color);
+    font-size: 32px;
+
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: var(--accent-color);
+}
